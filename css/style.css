@@ -118,3 +118,62 @@ form [type="submit"]:hover {
 main .conteiner-main img{
     width: 600px;
 }
+
+/* CARDS */
+a{
+    text-decoration: none;
+}
+
+.cards{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+}
+
+.text--medium{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400px;
+    color: rgb(187,185,185);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -4px #000000;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+}
+
+.image{
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
+}
+
+.image img{
+    position: absolute;
+    /* border-radius: 10px; */
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    margin: 20px;
+}
+
+.title{
+    margin-bottom: 0px;
+}
