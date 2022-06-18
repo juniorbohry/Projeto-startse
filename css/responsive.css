@@ -76,7 +76,7 @@
     }
 
     .menu li{
-        display: flex;
+        display: none;
         justify-content: center;
         margin: 0;
         padding: 0;
@@ -125,11 +125,13 @@
         top: 16px;
     }
 
+
     #checkbox-menu:checked + label span:nth-child(1){
         transform: rotate(-45deg);
         top: 8px;
     }
 
+    
     #checkbox-menu:checked + label span:nth-child(2){
         opacity: 0;
     }
@@ -146,6 +148,10 @@
     #checkbox-menu:checked~nav .menu{
         transform: translateX(-100vw);
         transition: 0.5s ease transform;
+    }
+
+    #checkbox-menu:checked~nav .menu li{
+        display: flex;
     }
 
     .contact textarea{
