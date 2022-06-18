@@ -177,3 +177,69 @@ a{
 .title{
     margin-bottom: 0px;
 }
+
+/* Formulario*/
+.contact{
+    max-width: 980px;
+    margin: 100px auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact textarea {
+    resize: none;
+    width: 380px;
+    padding-left: 15px;
+    font-size: 18px;
+    height: 150px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px solid #0080ed
+}
+
+.conteiner-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-title img{
+    width: 350px;
+    object-fit: cover; 
+}
+
+
+/* footer */
+footer{
+    background-color: #0080ed;
+}
+
+.conteiner-footer{
+    max-width: 980px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner-icone{
+    display: flex;
+    align-items: center;
+    flex-grow: 0.2;
+    justify-content: space-between;
+}
+
+.conteiner-footer #logo{
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icone img{
+    height: 45px;
+}
