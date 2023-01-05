@@ -1,6 +1,10 @@
-﻿# projeto-startse-css-html
-# Objetivo
-Criação de uma pagina web com CSS e HTML
+﻿# Projeto-startse
+"Projeto startse" é uma aplicação front end desenvolvida durante o curso oferecido pela Startse. Ela é uma página responsiva e contém: Uma seção com formulário de incrição na newsletter, uma seção para artigos e uma seção com formulário de contato.
 
 ## Git Pages
 https://juniorbohry.github.io/projeto-startse-css-html/
+
+# Tecnologias
+- HTML
+- CSS
+
